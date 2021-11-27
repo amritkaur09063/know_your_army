@@ -1,0 +1,139 @@
+{
+    "chiefOfArmyStaff": [
+        {
+            "name": "General MM Naravane,PVSM,AVSM,SM,VSM,ADC",
+            "tenure": "31st December 2019 to Till Date",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/General_Manoj_Mukund_Naravane_PVSM_AVSM_SM_VSM_ADC_%281%29.jpg/220px-General_Manoj_Mukund_Naravane_PVSM_AVSM_SM_VSM_ADC_%281%29.jpg"
+        },
+        {
+            "name": "General Bipin Rawat, PVSM, UYSM, AVSM, YSM, SM, VSM, ADC",
+            "tenure": "31 December 2016 to 31 December 2019",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bipin_Rawat_%28CDS%29.jpg/100px-Bipin_Rawat_%28CDS%29.jpg"
+        },
+        {
+            "name": "General Dalbir Singh Suhag, PVSM, UYSM, AVSM, VSM, ADC",
+            "tenure": "1 August 2014 to 31 December 2016",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/General_Dalbir_Singh_official_photo.jpg/100px-General_Dalbir_Singh_official_photo.jpg"
+        },
+        {
+            "name": "General Bikram Singh PVSM, UYSM, AVSM, SM, VSM, ADC",
+            "tenure": "1 June 2012 to 31 July 2014",
+            "img": " https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gen_Bikram_Singh.jpg/100px-Gen_Bikram_Singh.jpg"
+        },
+        {
+            "name": "General Vijay Kumar Singh, PVSM, AVSM, YSM, ADC",
+            "tenure": "1 April 2010 to 31 May 2012",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/General_Vijay_Kumar_Singh.jpg/100px-General_Vijay_Kumar_Singh.jpg"
+        },
+        {
+            "name": "General Deepak Kapoor, PVSM, AVSM, SM, VSM, ADC",
+            "tenure": "1 October 2007 to 31 March 2010",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/General_Deepak_Kapoor.jpg/100px-General_Deepak_Kapoor.jpg"
+        },
+        {
+            "name": "General Joginder Jaswant Singh, PVSM, AVSM, VSM, ADC",
+            "tenure": "1 February 2005 to 30 September 2007",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/J._J._Singh.jpg/100px-J._J._Singh.jpg "
+        },
+        {
+            "name": "General Nirmal Chander Vij PVSM, UYSM, AVSM",
+            "tenure": "31st Dec 2019 to Till Date",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/General_Nirmal_Chander_Vij.jpg/100px-General_Nirmal_Chander_Vij.jpg"
+        },
+        {
+            "name": "General Sundararajan Padmanabhan, PVSM, AVSM, VSM ",
+            "tenure": "1 October 2000 to 31 December 2002 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/General_Sundararajan_Padmanabhan.jpg/100px-General_Sundararajan_Padmanabhan.jpg "
+        },
+        {
+            "name": "General Ved Prakash Malik, PVSM, AVSM ",
+            "tenure": " 1 October 1997 to 30 September 2000",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/General_VP_Malik.png/100px-General_VP_Malik.png "
+        },
+        {
+            "name": "General Shankar Roy Chowdhary, PVSM, ADC ",
+            "tenure": " 20 November 1994 to 30 September 1997",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gen_Shankar_Roy_Chowdhary.jpg/100px-Gen_Shankar_Roy_Chowdhary.jpg "
+        },
+        {
+            "name": "General Bipin Chandra Joshi, PVSM, AVSM, ADC",
+            "tenure": " 1 July 1993 to 19 November 1994",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/General_Bipin_Chandra_Joshi.jpg/100px-General_Bipin_Chandra_Joshi.jpg "
+        },
+        {
+            "name": "General Sunith Francis Rodrigues, PVSM, VSM ",
+            "tenure": " 1 July 1990 to 30 June 1993",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/General_Sunith_Francis_Rodrigues.jpg/100px-General_Sunith_Francis_Rodrigues.jpg "
+        },
+        {
+            "name": " General Vishwa Nath Sharma, PVSM, AVSM, ADC",
+            "tenure": "1 June 1988 to 30 June 1990 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/General_Vishwa_Nath_Sharma.jpg/100px-General_Vishwa_Nath_Sharma.jpg "
+        },
+        {
+            "name": "General Krishnaswamy Sundarji, PVSM ",
+            "tenure": "1 February 1986 to 31 May 1988 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/General_Krishnaswami_Sundarji.jpg/100px-General_Krishnaswami_Sundarji.jpg "
+        },
+        {
+            "name": " General Arunkumar Shridhar Vaidya, PVSM, MVC, AVSM ",
+            "tenure": " 1 August 1983 to 31 January 1986 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/General_Arunkumar_Shridhar_Vaidya.jpg/100px-General_Arunkumar_Shridhar_Vaidya.jpg "
+        },
+        {
+            "name": " General Kotikalapudi Venkata Krishna Rao, PVSM ",
+            "tenure": " 1 June 1981 to 31 July 1983 ",
+            "img": " https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/General_Kotikalapudi_Venkata_Krishna_Rao.jpg/100px-General_Kotikalapudi_Venkata_Krishna_Rao.jpg"
+        },
+        {
+            "name": " General Om Prakash Malhotra, PVSM ",
+            "tenure": " 1 June 1978 to 31 May 1981 ",
+            "img": " https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Om-prakash-Mhalotra.jpg/100px-Om-prakash-Mhalotra.jpg"
+        },
+        {
+            "name": " General Tapishwar Narain Raina, MVC, SM ",
+            "tenure": " 1 June 1975 to 31 May 1978 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/General_Tapishwar_Narain_Raina.jpg/100px-General_Tapishwar_Narain_Raina.jpg "
+        },
+        {
+            "name": " General Gopal Gurunath Bewoor, PVSM ",
+            "tenure": "16 January 1973 to 31 May 1975  ",
+            "img": " https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/General_Gopal_Gurnath_Bewoor.jpg/100px-General_Gopal_Gurnath_Bewoor.jpg"
+        },
+        {
+            "name": " Field Marshal Sam Hormusji Framji Jamshedji Manekshaw, MC ",
+            "tenure": " 8 June 1969 to 15 January 1973 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/FM_Sam_Manekshaw.jpg/100px-FM_Sam_Manekshaw.jpg "
+        },
+        {
+            "name": " General Paramasiva Prabhakar Kumaramangalam, DSO, MBE ",
+            "tenure": " 8 June 1966 to 7 June 1969 ",
+            "img": " https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/General_Paramasiva_Prabhakar_Kumramangalam.jpg/100px-General_Paramasiva_Prabhakar_Kumramangalam.jpg"
+        },
+        {
+            "name": " General Jayanto Nath Chaudhuri, OBE ",
+            "tenure": " 20 November 1962 to 7 June 1966",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/General_Jayanto_Nath_Chaudhuri.jpg/100px-General_Jayanto_Nath_Chaudhuri.jpg "
+        },
+        {
+            "name": " General Pran Nath Thapar  ",
+            "tenure": " 8 May 1961 to 19 November 1962 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/General_Pran_Nath_Thapar.jpg/100px-General_Pran_Nath_Thapar.jpg"
+        },
+        {
+            "name": "  General Kodandera Subayya Thimayya, DSO ",
+            "tenure": " 8 May 1957 to 7 May 1961 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/General_Kodandera_Subayya_Thimayya.jpg/100px-General_Kodandera_Subayya_Thimayya.jpg"
+        },
+        {
+            "name": " General Satyawant Mallana Srinagesh  ",
+            "tenure": " 15 May 1955 to 7 May 1957 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/General_Satyawant_Mallana_Srinagesh.jpg/100px-General_Satyawant_Mallana_Srinagesh.jpg"
+        },
+        {
+            "name": " General Maharaj Shri Rajendrasinhji Jadeja, DSO  ",
+            "tenure": " 1 April 1955 to 14 May 1955 ",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Gen_Maharaj_Shri_Rajendrasinhji_Jadeja.jpg/100px-Gen_Maharaj_Shri_Rajendrasinhji_Jadeja.jpg"
+        }
+    ]
+}
