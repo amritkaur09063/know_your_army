@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.knowyourarmy.know_your_army">
+    package="com.example.know_your_army">
    <application
         android:label="know_your_army"
         android:icon="@mipmap/ic_launcher">
