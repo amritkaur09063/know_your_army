@@ -8,7 +8,11 @@ import 'package:know_your_army/models/army_chief.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class ArmyChiefScreen extends StatefulWidget {
-  const ArmyChiefScreen({Key? key}) : super(key: key);
+
+  const ArmyChiefScreen({Key? key, this.title, this.filePath, this.jsonKey}) : super(key: key);
+  final String? title;
+  final String? filePath;
+  final String? jsonKey;
 
   @override
   _ArmyChiefScreenState createState() => _ArmyChiefScreenState();
@@ -20,9 +24,9 @@ class _ArmyChiefScreenState extends State<ArmyChiefScreen> {
   final List<ArmyChief> _chiefs = [];
 
   Future<void> readJSONFile() async {
-    final String response = await rootBundle.loadString("assets/json/COAS_1.json");
+    final String response = await rootBundle.loadString(widget.filePath ?? "");
     final data = await json.decode(response);
-    List.from(data["chiefOfArmyStaff"]).forEach((json) => {
+    List.from(data[widget.jsonKey]).forEach((json) => {
       _chiefs.add(ArmyChief.fromJson(json))
     });
     setState(() { });
@@ -40,7 +44,7 @@ class _ArmyChiefScreenState extends State<ArmyChiefScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Constant.bgColor,
-        title: const Text("Chief of Army Staff"),
+        title: Text(widget.title ?? ""),
       ),
       body: Column(
         children: [

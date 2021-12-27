@@ -1,0 +1,35 @@
+{
+    "Entries": [],
+    "NDA & NA Examination": [
+        {
+            "Title": "",
+            "Paragraph": "You can join NA by taking the exam conducted by Union Public Service Commission (UPSC). This exam is conducted twice a year in all major cities throughout India"
+        },
+        {
+            "Title": "Age",
+            "Paragraph": "16 ½ to 19 years(at the time of commencement of course)"
+        },
+        {
+            "Title": "Nationality",
+            "Paragraph": "Indian"
+        },
+        {
+            "Title": "Educational Qualifications",
+            "Paragraph": "10+2 with Physics and Mathematics. Appearing final year students can also eligible to apply"
+        }
+    ],
+    "B.tech Cadet Entry": [
+        {
+            "Title": "Age",
+            "Paragraph": "17 to 19 years"
+        },
+        {
+            "Title": "Nationality",
+            "Paragraph": "Indian"
+        },
+        {
+            "Title": "Educational Qualifications",
+            "Paragraph": "Passed Senior Secondary Examination (10+2 Pattern) or its equivalent from University/Board with at least 70 % aggregate marks in Physics, Chemistry and Mathematics (PCM) and at least 50% marks in English (either in Class X or Class XII)"
+        }
+    ]
+}

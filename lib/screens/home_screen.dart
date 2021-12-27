@@ -62,7 +62,11 @@ class _HomeScreenState extends State<HomeScreen> {
               InkWell(
                 onTap: () {
                   Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => const ArmyChiefScreen(),)
+                    MaterialPageRoute(builder: (context) => const ArmyChiefScreen(
+                      title: "Chief of Army Staff",
+                      filePath: "assets/json/COAS_1.json",
+                      jsonKey: "chiefOfArmyStaff")
+                    )
                   );
                 },
                 child: imageCard("Army Chiefs", Icons.person),
@@ -75,7 +79,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: imageCard("Gallery", Icons.collections),
               ),
-              imageCard("PVC", Icons.settings),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const ArmyChiefScreen(
+                      title: "PVC",
+                      filePath: "assets/json/heros.json",
+                      jsonKey: "heroes_of_the_nation")
+                    )
+                  );
+                },
+                child: imageCard("PVC", Icons.settings)
+              ),
             ],
           ),
           const SizedBox(height: Constant.height),
