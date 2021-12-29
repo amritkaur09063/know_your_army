@@ -75,14 +75,6 @@ class _HomeScreenState extends State<HomeScreen> {
               InkWell(
                 onTap: () {
                   Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => const GalleryScreen(),)
-                  );
-                },
-                child: imageCard("Gallery", Icons.collections),
-              ),
-              InkWell(
-                onTap: () {
-                  Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => const ArmyChiefScreen(
                       title: "PVC",
                       filePath: "assets/json/heros.json",
@@ -95,10 +87,49 @@ class _HomeScreenState extends State<HomeScreen> {
               InkWell(
                 onTap: () {
                   Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) =>  QuizScreen())
+                    MaterialPageRoute(builder: (context) => const QuizScreen())
                   );
                 },
-                child: imageCard("PVC", Icons.settings)
+                child: imageCard("Quiz", Icons.quiz)
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GalleryScreen(
+                        title: "Images",
+                        filePath: "assets/json/Images_for_Gallary_3.json",
+                        jsonKey: "Images_for_gallery",
+                      ),
+                    )
+                  );
+                },
+                child: imageCard("Gallery", Icons.collections),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GalleryScreen(
+                        title: "Gallantry Awards",
+                        filePath: "assets/json/gallantry.json",
+                        jsonKey: "gallantry_awards",
+                      ),
+                    )
+                  );
+                },
+                child: imageCard("Gallantry Awards", Icons.military_tech),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GalleryScreen(
+                        title: "Non-Gallantry Awards",
+                        filePath: "assets/json/non_gallantry.json",
+                        jsonKey: "non_gallantry_awards",
+                      ),
+                    )
+                  );
+                },
+                child: imageCard("Non Gal. Awards", Icons.military_tech),
               ),
             ],
           ),

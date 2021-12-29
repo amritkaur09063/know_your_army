@@ -6,7 +6,10 @@ import 'package:flutter/services.dart';
 import '../constant.dart';
 
 class GalleryScreen extends StatefulWidget {
-  const GalleryScreen({Key? key}) : super(key: key);
+  const GalleryScreen({Key? key, this.title, this.filePath, this.jsonKey}) : super(key: key);
+  final String? title;
+  final String? filePath;
+  final String? jsonKey;
 
   @override
   _GalleryScreenState createState() => _GalleryScreenState();
@@ -16,9 +19,9 @@ class _GalleryScreenState extends State<GalleryScreen> {
 
   final List<String> _images = [];
   Future<void> readJSONFile() async {
-    final String response = await rootBundle.loadString("assets/json/Images_for_Gallary_3.json");
+    final String response = await rootBundle.loadString(widget.filePath ?? "");
     final data = await json.decode(response);
-    List.from(data["Images_for_gallary"]).forEach((json) => {
+    List.from(data[widget.jsonKey ?? ""]).forEach((json) => {
       _images.add(json)
     });
     setState(() { });
@@ -37,7 +40,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Constant.bgColor,
-        title: const Text("Gallery"),
+        title: Text(widget.title ?? ""),
       ),
       body: GridView.builder(
         physics: const BouncingScrollPhysics(),

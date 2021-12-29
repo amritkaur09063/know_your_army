@@ -5,18 +5,18 @@ import 'package:flutter/services.dart';
 
 import '../constant.dart';
 
-class GallentryScreen extends StatefulWidget {
-  const GallentryScreen({Key? key}) : super(key: key);
+class GallantryScreen extends StatefulWidget {
+  const GallantryScreen({Key? key}) : super(key: key);
 
   @override
-  _GallantryScreenState createState() => _GallentryScreenState();
+  _GallantryScreenState createState() => _GallantryScreenState();
 }
 
-class _GallantryScreenState extends State<GallentryScreen> {
+class _GallantryScreenState extends State<GallantryScreen> {
 
   final List<String> _images = [];
   Future<void> readJSONFile() async {
-    final String response = await rootBundle.loadString("assets/json/gallentry.json");
+    final String response = await rootBundle.loadString("assets/json/gallantry.json");
     final data = await json.decode(response);
     List.from(data["Gallentry Awards"]).forEach((json) => {
       _images.add(json)

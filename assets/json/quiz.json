@@ -2,7 +2,7 @@
   "module": {
     "number": 1,
     "name": "GeneralKnowledge",
-    "questions": 15,
+    "questions": 15
   },
   "questions": [
     {
@@ -12,7 +12,7 @@
         " Subhash Chandra Bose",
         " Mahatma Gandhi",
         "Shyamlal Gupta Councilor",
-        " Savarkar"
+        "Savarkar"
       ],
       "correct_answer": 1
     },
@@ -23,10 +23,10 @@
         "Italy",
          "Britain",
         "France",
-        "Germany",
+        "Germany"
       ],
       "correct_answer": 1
-    }
+    },
     {
         "number": 3,
         "question": " The Chief Minister of which state has launched a web portal and a mobile application developed by the state finance department named 'Hamar Apan Budget'?",
@@ -34,10 +34,10 @@
             "West Bengal",
             "Jharkhand",
             "Karnataka",
-            "Chhattisgarh",
+            "Chhattisgarh"
         ],
         "correct_answer": 2
-      }
+      },
       {
         "number": 4,
         "question": "Who has recently become the new Chancellor of Germany?",
@@ -45,21 +45,21 @@
             "dam Charles",
             "Olaf Scholz",
             "Max Diamond",
-            "Yuda Diskatche",
+            "Yuda Diskatche"
         ],
         "correct_answer": 2
-      }
+      },
       {
         "number": 5,
-        "question": "Q: Which State has recently launched the Student Police Cadet (SPC) scheme for class 8 and 9 students?",
+        "question": "Which State has recently launched the Student Police Cadet (SPC) scheme for class 8 and 9 students?",
         "answers": [
           "Madhya Pradesh",
           "Rajasthan",
-          "Gujarat"
-          "Odisha",
+          "Gujarat",
+          "Odisha"
         ],
         "correct_answer": 2
-      }
+      },
       {
         "number": 6,
         "question": " How many countries have been declared as COVID-19 free till 9 June?",
@@ -67,10 +67,10 @@
           "4",
           "7",
           "9", 
-          "12",
+          "12"
         ],
         "correct_answer": 3
-      }
+      },
       {
         "number": 7,
         "question": " Which bank is the partner bank of PM-CARES?",
@@ -78,10 +78,10 @@
           "PNB",
           "SBI",
           "RBI",
-          "Yes Bank",
+          "Yes Bank"
         ],
         "correct_answer": 2
-      }
+      },
       {
         "number": 8,
         "question": " Which country has recently launched Soyuz Carrier Rocket with 33 Satellites?",
@@ -89,33 +89,31 @@
           "Russia",
           "US",
           "China",
-          "Italy",
+          "Italy"
         ],
         "correct_answer": 1
-      }
+      },
       {
         "number": 9,
-        "question": "Q: What is the currency of Mexico?",
+        "question": "What is the currency of Mexico?",
         "answers": [
           "euro",
           "peso",
           "rand",
-          "dinar",
+          "dinar"
         ],
         "correct_answer": 2
-      }
+      },
       {
         "number": 10,
-        "question": "Q: 180 m long Train A crosses Train B of 120 m in length which is running in opposite direction in 60/11sec. If speed of train B is 20% more than that of train A, then find the time taken by both trains to cross each other, when they running in same direction?",
+        "question": "180 m long Train A crosses Train B of 120 m in length which is running in opposite direction in 60/11sec. If speed of train B is 20% more than that of train A, then find the time taken by both trains to cross each other, when they running in same direction?",
         "answers": [
           "60 sec",
           "258 sec",
           "355 sec",
-          "450sec",
+          "450sec"
         ],
         "correct_answer": 1
       }
- 
-
   ]
 }
