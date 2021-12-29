@@ -1,5 +1,5 @@
 {
-    "ImportantLinks": [
+    "important_links": [
         {
             "title": "Official website of Indian Army",
             "link": "https://indianarmy.nic.in/"
@@ -23,7 +23,7 @@
         {
             "title": "Official website of NCC",
             "link": "https://indiancc.nic.in/"
-        },
+        }
         
     ]
 }

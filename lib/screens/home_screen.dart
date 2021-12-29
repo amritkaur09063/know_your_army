@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:know_your_army/models/intro.dart';
 import 'package:know_your_army/screens/army_chief_screen.dart';
 import 'package:know_your_army/screens/gallery_screen.dart';
+import 'package:know_your_army/screens/importantlink.dart';
 import 'package:know_your_army/screens/quiz.dart';
 
 import '../constant.dart';
@@ -130,6 +131,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
                 child: imageCard("Non Gal. Awards", Icons.military_tech),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const LinkScreen()
+                    )
+                  );
+                },
+                child: imageCard("Links", Icons.link),
               ),
             ],
           ),
