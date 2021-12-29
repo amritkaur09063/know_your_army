@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:know_your_army/models/intro.dart';
 import 'package:know_your_army/screens/army_chief_screen.dart';
 import 'package:know_your_army/screens/gallery_screen.dart';
+import 'package:know_your_army/screens/quiz.dart';
 
 import '../constant.dart';
 
@@ -87,6 +88,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       filePath: "assets/json/heros.json",
                       jsonKey: "heroes_of_the_nation")
                     )
+                  );
+                },
+                child: imageCard("PVC", Icons.settings)
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) =>  QuizScreen())
                   );
                 },
                 child: imageCard("PVC", Icons.settings)
