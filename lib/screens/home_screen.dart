@@ -7,6 +7,7 @@ import 'package:know_your_army/models/intro.dart';
 import 'package:know_your_army/screens/army_chief_screen.dart';
 import 'package:know_your_army/screens/gallery_screen.dart';
 import 'package:know_your_army/screens/importantlink.dart';
+import 'package:know_your_army/screens/movie_screen.dart';
 import 'package:know_your_army/screens/quiz.dart';
 
 import '../constant.dart';
@@ -140,6 +141,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
                 child: imageCard("Links", Icons.link),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const MovieScreen()
+                    )
+                  );
+                },
+                child: imageCard("Movies", Icons.video_collection),
               ),
             ],
           ),
